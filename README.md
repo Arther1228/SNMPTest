@@ -1,9 +1,6 @@
 # SNMPTest
 SNMPTest
 
-## 过滤条件:   ip.dst==192.168.99.192 &&  ip.src==192.168.99.234 && snmp
-***
-
 ##汉明
 
 ###  汉明 逻辑
@@ -108,3 +105,6 @@ SNMPTest
   4. 把找到的终端mac 加入到 terminalmacTemp List中;
   5. 利用apmac 和 terminalmacTemp 创建对象,并添加到apTerminalMacList 中;
   6. 最后返回并添加到apTerminalMacList。
+
+## 过滤条件:   ip.dst==192.168.99.192 &&  ip.src==192.168.99.234 && snmp
+***
